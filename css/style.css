@@ -228,7 +228,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fh5co-features .services-padding {
-  padding: 7em 0;
+  padding: 9.5em 0;
+}
+
+.parent {
+  margin-left: 70px;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
@@ -595,6 +599,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  text-align: left;
+  list-style-type: disc
+}
+
+.timeline-body li {
+  margin-bottom: 10px;
 }
 
 .timeline-body > p + p {
